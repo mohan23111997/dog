@@ -13,15 +13,39 @@
 </head>
 <style>
   #title{
-    background-color:pink;
+    background-color:aqua;
+    color:#fff;
+    font-family:ubuntu;
   }
   h1{
-    font-family: "ubuntu-light";
-    font-size:3rem;
+    font-family: "Montserrat-bold";
+    font-size:4rem;
     line-height: 1.5;
   }
   .container-fluid{
     padding:3% 15%;
+  }
+  .navbar-brand{
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .navbar{
+    padding:40px 20px 40px 0;
+  }
+  .nav-item{
+    padding:0px 30px;
+  }
+  .nav-link{
+    font-family: Montserrat-light;
+    font-size: 1.5rem;
+  }
+  .title-image{
+    width:50%;
+    transform: rotate(30deg);
+  }
+  .download-button{
+    margin:5% 8% 5% 0;
   }
 </style>
 
@@ -59,10 +83,10 @@
     <div class="row">
       <div class="col-lg-6">
         <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button"class="btn btn-dark"><i class="fa fa-apple"></i>Download</button>
-        <button type="button"class="btn btn-outline-light"><i class="fa fa-android"></i>Download</button></div>
+        <button type="button"class="btn btn-dark download-button"><i class="fa fa-apple"></i>Download</button>
+        <button type="button"class="btn btn-outline-light  download-button"><i class="fa fa-android"></i>Download</button></div>
     <div class="col-lg-6">
-      <img src="images/iphone6.png" alt="iphone-mockup">
+      <img class="title-image"src="images/iphone6.png" alt="iphone-mockup">
     </div>
 </div>
   </div>
